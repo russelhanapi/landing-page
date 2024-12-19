@@ -168,13 +168,53 @@ section {
     font-weight: light;
     color: #1F2937;
     margin-bottom: 12px;
-
 }
 
 .quote-author {
     font-weight: bold;
     text-align: end;
     font-size: 22px;
+}
+
+/* CTO SECTION */
+
+.section-cto {
+    background-color: #F9FAF8;
+}
+
+.cto-card {
+    background-color: #3882F6;
+    padding: 45px 0;
+    border-radius: 12px;
+}
+
+.cto-card-contents {
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container-mini {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cto-text {
+    gap: 25px;
+}
+
+.cto-header {
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.cto-subtext {
+    color: #F9FAF8;
+}
+
+.cto-card-contents .cto-btn {
+    border: 2px #F9FAF8 solid;
 }
 
 
