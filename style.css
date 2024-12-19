@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.4;
+}
+
+/* 
+Hero, Footer BG                         #1F2937
+Hero Main text                          48px #F9FAF8, 900
+Hero Secondary Text, Header link        18px, #E5E7EB
+Header Logo text                        24px, #F9FAF8
+Button color, CTA BG                    #3882F6
+Information Header                      36px #1F2937, 900
+Quote BG                                #E5E7EB
+Quote text                     36px Light italic #1F2937 
+*/
+
+section {
+    min-height: 50vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.flex {
+    display: flex;
+   
+}
+
+/* HERO SECTION */
+
+.section-hero {
+    background-color: #1F2937;
+}
+
+.header {
+    padding: 16px 0;
+}
+
+.main-nav {
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav-links-container {
+
+}
+
+.nav-links {
+    list-style: none;
+    gap: 22px;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+.nav-links li a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero-content {
+    gap: 50px;
+    
+}
+
+.hero-texts-content {
+
+}
+
+.hero-main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0 24px 0 ;
+}
+
+.cto-btn {
+    padding: 10px 26px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.hero-image-content {
+    background-color: #E5E7EB;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image-placeholder {
+
+}
