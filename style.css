@@ -21,10 +21,6 @@ Quote BG                                #E5E7EB
 Quote text                     36px Light italic #1F2937 
 */
 
-section {
-    min-height: 50vh;
-}
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
