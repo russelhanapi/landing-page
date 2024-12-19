@@ -113,3 +113,68 @@ section {
 .hero-image-placeholder {
 
 }
+
+/* INFORMATION SECTION */
+
+.section-information {
+    background-color: #F9FAF8;
+}
+
+.information-header {
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 900;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.information-details-container {
+    margin: 0 auto;
+    width: 800px;
+    gap: 45px;
+}
+
+.information-detail-content {
+    
+}
+
+.illustration-container {
+    height: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.illustration-subtext {
+    text-align: center;
+}
+
+/* QUOTE SECTION */
+
+.section-quote {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    margin-bottom: 12px;
+
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+    font-size: 22px;
+}
+
+
